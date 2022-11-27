@@ -1,0 +1,23 @@
+.knowCard {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.knowCardButtom {
+  max-height: 50px;
+  height: 50px;
+}
+
+.cardLink {
+  height: 100%;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.CardText {
+  text-align: justify;
+  text-justify: inter-character;
+}

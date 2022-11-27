@@ -1,0 +1,54 @@
+main {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  padding: 20px 20px 60px;
+  margin: 0 auto;
+}
+
+main.user {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+}
+
+/* .dcard > div:first-child::before {
+  content: url(/images/icon/ann.png);
+  position: absolute;
+  left: 20px;
+  transform: translateY(-40px);
+  display: block;
+}
+
+.dcard > div:last-child::after {
+  content: url(/images/icon/aung.png);
+  position: absolute;
+  right: 20px;
+  transform: translateY(-40px);
+  display: block;
+} */
+
+.image-radio {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+.image-radio + span > img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+.gender.active {
+  outline: 2px solid #f00;
+}
+
+.hide {
+  display: none;
+}
